@@ -1,0 +1,22 @@
+### extensions installations
+Python
+Predawn Theme Kit -- color theme
+Ayu -- file icon theme
+Code-Runner -- read-only script runner Ctrl+Alt+N
+Black -- code formatter
+Pylint
+
+{
+    "terminal.integrated.shell.windows": "C:\\Users\\RacsaN\\Git\\bin\\bash.exe",
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "python.pythonPath": "C:\\Users\\RacsaN\\anaconda3\\python.exe",
+    "workbench.settings.openDefaultSettings": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    }
+}
